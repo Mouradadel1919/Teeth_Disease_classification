@@ -1,0 +1,11 @@
+numpy==1.26.4
+pandas
+flask
+scikit-learn==1.5.2
+openpyxl
+joblib
+tensorflow==2.9.3
+keras==2.9.0
+Pillow
+
+
