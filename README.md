@@ -23,8 +23,8 @@ A computer vision project that utilizes transfer learning to classify dental ima
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/teeth-disease-detection.git
-   cd teeth-disease-detection
+   git clone https://github.com/Mouradadel1919/Teeth_Disease_classification.git
+   cd Teeth_Disease_classification
    ```
 2. Install the required dependencies:
    ```bash
@@ -36,35 +36,21 @@ A computer vision project that utilizes transfer learning to classify dental ima
    ```bash
    python app.py
    ```
-   The application will be accessible at `http://127.0.0.1:5000`.
+   The application will be accessible at `http://127.0.0.1:8080`.
 
 2. **Docker Deployment:**
-   Build and run the Docker container:
+   Pull and run the Docker container from Docker Hub:
    ```bash
-   docker build -t teeth-disease-detection .
-   docker run -p 5000:5000 teeth-disease-detection
+   docker pull mouradadel313/teeth_disease_classification:latest
+   docker run -p 8080:8080 mouradadel313/teeth_disease_classification:latest
    ```
    The application will be accessible at `http://127.0.0.1:5000`.
 
 ## Project Structure
 - `data/`: Contains sample dental images (add your dataset here).
-- `models/`: Pretrained VGG16 model and saved weights.
-- `notebooks/`: Jupyter notebooks for preprocessing and visualization.
 - `app.py`: Flask application file for model inference.
 - `Dockerfile`: Docker configuration file for containerizing the application.
 - `requirements.txt`: List of dependencies.
 
 ## Results
 The model achieved a classification accuracy of **97%**, making it a reliable tool for detecting teeth diseases.
-
-## Future Improvements
-- Add support for more diseases and larger datasets.
-- Improve model interpretability using Grad-CAM.
-- Enhance deployment with Kubernetes for scalable cloud deployment.
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Acknowledgements
-- The VGG16 architecture was pivotal in achieving high accuracy.
-- Thanks to the open-source libraries and tools that made this project possible.
