@@ -2,6 +2,15 @@
 
 A computer vision project that utilizes transfer learning to classify dental images into one of seven teeth diseases or none. The model leverages the VGG16 architecture and achieves an impressive accuracy of 97%. This project includes data preprocessing, visualization, augmentation, and a scalable deployment using Flask API and Docker.
 
+
+
+
+https://github.com/user-attachments/assets/4179e10b-77cf-4616-8577-48db836c71e5
+
+
+
+
+
 ## Features
 - Preprocessing, visualization, and augmentation of dental images.
 - Classification of dental images into 7 diseases or none using a transfer learning-based VGG16 model.
