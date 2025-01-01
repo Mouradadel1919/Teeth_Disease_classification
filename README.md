@@ -44,7 +44,7 @@ A computer vision project that utilizes transfer learning to classify dental ima
    docker pull mouradadel313/teeth_disease_classification:latest
    docker run -p 8080:8080 mouradadel313/teeth_disease_classification:latest
    ```
-   The application will be accessible at `http://127.0.0.1:5000`.
+   The application will be accessible at `http://127.0.0.1:8080`.
 
 ## Project Structure
 - `data/`: Contains sample dental images (add your dataset here).
