@@ -5,7 +5,8 @@ A computer vision project that utilizes transfer learning to classify dental ima
 
 
 
-https://github.com/user-attachments/assets/4179e10b-77cf-4616-8577-48db836c71e5
+
+https://github.com/user-attachments/assets/89ffddaf-536a-4944-809e-9b9b049ef691
 
 
 
@@ -24,10 +25,6 @@ https://github.com/user-attachments/assets/4179e10b-77cf-4616-8577-48db836c71e5
 - **Deployment Tools:** Flask, Docker
 
 ## Getting Started
-
-### Prerequisites
-- Python 3.7 or above
-- Docker
 
 ### Installation
 1. Clone the repository:
