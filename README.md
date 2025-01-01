@@ -46,7 +46,7 @@ https://github.com/user-attachments/assets/89ffddaf-536a-4944-809e-9b9b049ef691
 
 2. **Docker Deployment:**
    Pull and run the Docker container from Docker Hub:
-   link: https://hub.docker.com/repository/docker/mouradadel313/teeth_disease_classification/tags
+   https://hub.docker.com/repository/docker/mouradadel313/teeth_disease_classification/tags
    ```bash
    docker pull mouradadel313/teeth_disease_classification:latest
    docker run -p 8080:8080 mouradadel313/teeth_disease_classification:latest
