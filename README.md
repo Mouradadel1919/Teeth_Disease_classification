@@ -47,7 +47,7 @@ A computer vision project that utilizes transfer learning to classify dental ima
    The application will be accessible at `http://127.0.0.1:8080`.
 
 ## Project Structure
-- `data/`: Contains sample dental images (add your dataset here).
+- `data`: https://drive.google.com/drive/folders/1rC57JNtp8xfx2HkSdTzQN9osGuBe-spX?usp=sharing
 - `app.py`: Flask application file for model inference.
 - `Dockerfile`: Docker configuration file for containerizing the application.
 - `requirements.txt`: List of dependencies.
